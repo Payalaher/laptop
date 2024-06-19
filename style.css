@@ -32,16 +32,25 @@ html,body{
 }
 
 .box{
-    height: 95%;
+    height: 91%;
 width: 50%;
-background-color: rgb(34, 34, 34);
+opacity: 70;
+background: rgba(6, 6, 6, 0.609);
+border-radius: 16px;
+box-shadow: 0 3px 20px rgba(57, 57, 57, 0.719);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+/* background-color: rgb(34, 34, 34); */
 border-radius: 15px;
-padding: 1vw;
+/* padding: 1vw; */
 display: flex;
 }
 
 
 .left{
+  padding: 1vw;
+
     height: 100%;
     width: 35%;
     background-color: transparent;
@@ -57,6 +66,7 @@ display: flex;
 .left-upper{
     height: 13vh;
     width: 100%;
+    padding: 0 .5vw;
     /* background-color:rgb(18, 109, 109); */
 }
 
@@ -76,6 +86,7 @@ display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .left-upper i{
@@ -141,7 +152,7 @@ color: white;
     font-size: .7vw;
     color: white;
     line-height: 1.5;
-    font-weight: 100;
+    font-weight: 300;
   
 }
 
@@ -193,7 +204,7 @@ display: flex;
 
 .note{
 
-    height: 13vh;
+    height: 11vh;
     /* background-color: coral; */
     margin: -.5vw .5vw;
     padding-top: .5vw;
@@ -221,7 +232,7 @@ display: flex;
 
 
 .content-boxp{
-    width: 80%;
+    width: 90%;
     height: 15%;
     /* background-color: rgb(107, 143, 44); */
   margin: .2vw;
@@ -261,7 +272,7 @@ display: flex;
 
 
 .content-boxpp{
-    width: 80%;
+    width: 90%;
     height: 25%;
     /* background-color: rgb(107, 143, 44); */
   margin: .4vw;
@@ -283,9 +294,9 @@ display: flex;
 
 
 .style-page{
-    height: 95%;
-    width:60vh;
-    background-color: rgb(11, 11, 11);
+    height: 100%;
+    width:61.5vh;
+    background-color: #382e2f;
     border-radius: 0px 10px 10px 0px;
     border-left: 2px solid black;
     padding: 1.5vw;
